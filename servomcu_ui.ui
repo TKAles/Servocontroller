@@ -79,7 +79,7 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_3">
               <item>
-               <widget class="QSlider" name="horizontalSlider">
+               <widget class="QSlider" name="lr_pitch_slider">
                 <property name="maximumSize">
                  <size>
                   <width>100</width>
@@ -98,7 +98,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton">
+               <widget class="QPushButton" name="lr_pitch_stop">
                 <property name="maximumSize">
                  <size>
                   <width>45</width>
@@ -111,7 +111,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_2">
+               <widget class="QPushButton" name="lr_pitch_home">
                 <property name="maximumSize">
                  <size>
                   <width>45</width>
@@ -135,7 +135,7 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_4">
               <item>
-               <widget class="QSlider" name="horizontalSlider_2">
+               <widget class="QSlider" name="lr_yaw_slider">
                 <property name="maximumSize">
                  <size>
                   <width>100</width>
@@ -154,7 +154,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_3">
+               <widget class="QPushButton" name="lr_yaw_stop">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -173,7 +173,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_4">
+               <widget class="QPushButton" name="lr_yaw_home">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -203,7 +203,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_5">
+               <widget class="QLabel" name="lr_pitch_encoder_revs">
                 <property name="text">
                  <string>0.00rev</string>
                 </property>
@@ -221,7 +221,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_7">
+               <widget class="QLabel" name="lr_yaw_encoder_revs">
                 <property name="text">
                  <string>0.000rev</string>
                 </property>
@@ -254,7 +254,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton_9">
+             <widget class="QPushButton" name="left_align_toggle">
               <property name="maximumSize">
                <size>
                 <width>100</width>
@@ -293,7 +293,7 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_8">
               <item>
-               <widget class="QSlider" name="horizontalSlider_3">
+               <widget class="QSlider" name="lf_pitch_slider">
                 <property name="maximumSize">
                  <size>
                   <width>100</width>
@@ -312,7 +312,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_5">
+               <widget class="QPushButton" name="lf_pitch_stop">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -331,7 +331,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_6">
+               <widget class="QPushButton" name="lf_pitch_home">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -361,7 +361,7 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_9">
               <item>
-               <widget class="QSlider" name="horizontalSlider_4">
+               <widget class="QSlider" name="lf_yaw_slider">
                 <property name="maximumSize">
                  <size>
                   <width>100</width>
@@ -380,7 +380,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_7">
+               <widget class="QPushButton" name="lf_yaw_stop">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -399,7 +399,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_8">
+               <widget class="QPushButton" name="lf_yaw_home">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -429,7 +429,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_11">
+               <widget class="QLabel" name="lf_pitch_encoder_revs">
                 <property name="text">
                  <string>0.00rev</string>
                 </property>
@@ -447,7 +447,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_13">
+               <widget class="QLabel" name="lf_yaw_encoder_revs">
                 <property name="text">
                  <string>0.000rev</string>
                 </property>
@@ -500,7 +500,7 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_7">
               <item>
-               <widget class="QSlider" name="horizontalSlider_5">
+               <widget class="QSlider" name="rr_pitch_slider">
                 <property name="maximumSize">
                  <size>
                   <width>100</width>
@@ -519,7 +519,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_10">
+               <widget class="QPushButton" name="rr_pitch_stop">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -538,7 +538,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_11">
+               <widget class="QPushButton" name="rr_pitch_home">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -568,7 +568,7 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_12">
               <item>
-               <widget class="QSlider" name="horizontalSlider_6">
+               <widget class="QSlider" name="rr_yaw_slider">
                 <property name="maximumSize">
                  <size>
                   <width>100</width>
@@ -587,7 +587,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_12">
+               <widget class="QPushButton" name="rr_yaw_stop">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -606,7 +606,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_13">
+               <widget class="QPushButton" name="rr_yaw_home">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -636,7 +636,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_19">
+               <widget class="QLabel" name="rr_pitch_encoder_revs">
                 <property name="text">
                  <string>0.00rev</string>
                 </property>
@@ -654,7 +654,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_21">
+               <widget class="QLabel" name="rr_yaw_encoder_revs">
                 <property name="text">
                  <string>0.000rev</string>
                 </property>
@@ -687,7 +687,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton_14">
+             <widget class="QPushButton" name="right_align_toggle">
               <property name="maximumSize">
                <size>
                 <width>100</width>
@@ -726,7 +726,7 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_15">
               <item>
-               <widget class="QSlider" name="horizontalSlider_7">
+               <widget class="QSlider" name="rf_pitch_slider">
                 <property name="maximumSize">
                  <size>
                   <width>100</width>
@@ -745,7 +745,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_15">
+               <widget class="QPushButton" name="rf_pitch_stop">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -764,7 +764,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_16">
+               <widget class="QPushButton" name="rf_pitch_home">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -794,7 +794,7 @@
             <item>
              <layout class="QHBoxLayout" name="horizontalLayout_16">
               <item>
-               <widget class="QSlider" name="horizontalSlider_8">
+               <widget class="QSlider" name="rf_yaw_slider">
                 <property name="maximumSize">
                  <size>
                   <width>100</width>
@@ -813,7 +813,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_17">
+               <widget class="QPushButton" name="rf_yaw_stop">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -832,7 +832,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QPushButton" name="pushButton_18">
+               <widget class="QPushButton" name="rf_yaw_home">
                 <property name="minimumSize">
                  <size>
                   <width>45</width>
@@ -862,7 +862,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_26">
+               <widget class="QLabel" name="rf_pitch_encoder_revs">
                 <property name="text">
                  <string>0.00rev</string>
                 </property>
@@ -880,7 +880,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QLabel" name="label_28">
+               <widget class="QLabel" name="rf_yaw_encoder_revs">
                 <property name="text">
                  <string>0.000rev</string>
                 </property>
@@ -911,7 +911,7 @@
          <number>3</number>
         </property>
         <item>
-         <widget class="QPushButton" name="pushButton_19">
+         <widget class="QPushButton" name="position_0">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -924,7 +924,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_22">
+         <widget class="QPushButton" name="position_1">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -937,7 +937,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_21">
+         <widget class="QPushButton" name="position_2">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -950,7 +950,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_25">
+         <widget class="QPushButton" name="position_3">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -963,7 +963,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_24">
+         <widget class="QPushButton" name="position_4">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -976,7 +976,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_23">
+         <widget class="QPushButton" name="position_5">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -989,7 +989,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_32">
+         <widget class="QPushButton" name="position_6">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1002,7 +1002,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_31">
+         <widget class="QPushButton" name="position_7">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1015,7 +1015,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_30">
+         <widget class="QPushButton" name="position_8">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1028,7 +1028,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_29">
+         <widget class="QPushButton" name="position_9">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1041,7 +1041,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_28">
+         <widget class="QPushButton" name="position_10">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1054,7 +1054,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_27">
+         <widget class="QPushButton" name="position_11">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1067,7 +1067,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_26">
+         <widget class="QPushButton" name="position_12">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1080,7 +1080,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_20">
+         <widget class="QPushButton" name="position_13">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1093,7 +1093,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_33">
+         <widget class="QPushButton" name="position_14">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1106,7 +1106,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_34">
+         <widget class="QPushButton" name="position_15">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1119,7 +1119,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_35">
+         <widget class="QPushButton" name="position_16">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1132,7 +1132,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_36">
+         <widget class="QPushButton" name="position_17">
           <property name="maximumSize">
            <size>
             <width>30</width>
@@ -1149,14 +1149,14 @@
       <item>
        <layout class="QHBoxLayout" name="horizontalLayout_2">
         <item>
-         <widget class="QPushButton" name="pushButton_37">
+         <widget class="QPushButton" name="save_alignment">
           <property name="text">
            <string>Save Alignment Position</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton_38">
+         <widget class="QPushButton" name="load_aligment">
           <property name="text">
            <string>Load Alignment Position</string>
           </property>
