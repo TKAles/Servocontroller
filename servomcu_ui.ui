@@ -1177,8 +1177,20 @@
      <height>26</height>
     </rect>
    </property>
+   <widget class="QMenu" name="menuConfiguration">
+    <property name="title">
+     <string>Configuration</string>
+    </property>
+    <addaction name="actionMicrocontroller_Pin_Configuration"/>
+   </widget>
+   <addaction name="menuConfiguration"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionMicrocontroller_Pin_Configuration">
+   <property name="text">
+    <string>Microcontroller Pin Configuration</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>
