@@ -1,8 +1,0 @@
-certifi==2019.11.28
-pyFirmata==1.1.0
-PyMata==2.20
-PyQt5==5.14.0
-PyQt5-sip==12.7.0
-pyserial==3.4
-QtPy==1.7.0
-wincertstore==0.2
