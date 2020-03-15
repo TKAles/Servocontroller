@@ -39,7 +39,7 @@ class CameraObject:
             else:
                 self.available_cameras.append(cam_index)
                 tempcap.release()
-            cam_index += 1
+                cam_index += 1
             
         return
 
